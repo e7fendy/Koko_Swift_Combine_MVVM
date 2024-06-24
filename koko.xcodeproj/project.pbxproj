@@ -26,7 +26,6 @@
 		41A9F1382C2126470020FC29 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 41A9F1372C2126470020FC29 /* Base */; };
 		41A9F13A2C2126480020FC29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41A9F1392C2126480020FC29 /* Assets.xcassets */; };
 		41A9F13D2C2126480020FC29 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 41A9F13C2C2126480020FC29 /* Base */; };
-		41A9F1482C2126480020FC29 /* kokoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A9F1472C2126480020FC29 /* kokoTests.swift */; };
 		41A9F1522C2126480020FC29 /* kokoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A9F1512C2126480020FC29 /* kokoUITests.swift */; };
 		41A9F1542C2126480020FC29 /* kokoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A9F1532C2126480020FC29 /* kokoUITestsLaunchTests.swift */; };
 		41A9F1612C2127010020FC29 /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A9F1602C2127010020FC29 /* TabbarController.swift */; };
@@ -72,7 +71,6 @@
 		41A9F13C2C2126480020FC29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41A9F13E2C2126480020FC29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41A9F1432C2126480020FC29 /* kokoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kokoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		41A9F1472C2126480020FC29 /* kokoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kokoTests.swift; sourceTree = "<group>"; };
 		41A9F14D2C2126480020FC29 /* kokoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kokoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41A9F1512C2126480020FC29 /* kokoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kokoUITests.swift; sourceTree = "<group>"; };
 		41A9F1532C2126480020FC29 /* kokoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kokoUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -188,7 +186,6 @@
 		41A9F1462C2126480020FC29 /* kokoTests */ = {
 			isa = PBXGroup;
 			children = (
-				41A9F1472C2126480020FC29 /* kokoTests.swift */,
 				418E19312C2584C100233606 /* FriendsViewModelTests.swift */,
 			);
 			path = kokoTests;
@@ -380,7 +377,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				418E19322C2584C100233606 /* FriendsViewModelTests.swift in Sources */,
-				41A9F1482C2126480020FC29 /* kokoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
